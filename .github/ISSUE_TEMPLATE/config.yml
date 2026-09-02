@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Security vulnerability
-    url: https://github.com/terminal-api/skills/security/policy
-    about: Report security issues privately; do not open a public issue.
-  - name: Terminal documentation
-    url: https://docs.withterminal.com/guides/agents
-    about: Read the setup guide for Terminal agents, MCP, and CLI workflows.
