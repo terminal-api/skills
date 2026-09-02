@@ -15,12 +15,11 @@ This repository requires Node.js 24 or later. It has no runtime dependencies.
 1. Fork and clone the repository.
 2. Create a focused branch from `main`.
 3. Make your changes in `plugins/terminal/`.
-4. Add or update routing cases in `evals/routing.json` when skill selection changes.
-5. Run the checks:
+4. Install the pinned development dependencies and run the checks:
 
    ```bash
+   npm ci
    npm run check
-   npx --yes skills add . --list
    ```
 
 ## Skill guidelines
@@ -34,7 +33,7 @@ This repository requires Node.js 24 or later. It has no runtime dependencies.
 
 ## Plugin versioning
 
-The plugin follows semantic versioning. Update the version consistently in the portable plugin manifest, host-specific manifests, marketplace manifests, `package.json`, and `CHANGELOG.md`. The validation script checks version consistency.
+The plugin follows semantic versioning. Update the version consistently in the portable plugin manifest, host-specific manifests, marketplace entries that declare a version, `package.json`, and `CHANGELOG.md`. The validation script checks version consistency.
 
 ## Pull requests
 

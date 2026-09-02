@@ -59,6 +59,7 @@ See the [Terminal agents guide](https://docs.withterminal.com/guides/agents) for
 ## Development
 
 ```bash
+npm ci
 npm run check
 ```
 
