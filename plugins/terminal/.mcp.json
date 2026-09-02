@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "terminal": {
+      "type": "http",
+      "url": "https://mcp.withterminal.com/mcp"
+    }
+  }
+}

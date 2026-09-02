@@ -1,0 +1,29 @@
+{
+  "name": "terminal",
+  "version": "0.1.0",
+  "description": "Query fleet data and build telematics integrations with Terminal.",
+  "author": {
+    "name": "Terminal",
+    "email": "support@withterminal.com",
+    "url": "https://withterminal.com"
+  },
+  "homepage": "https://docs.withterminal.com/guides/agents",
+  "repository": "https://github.com/terminal-api/skills",
+  "license": "MIT",
+  "keywords": ["terminal", "telematics", "fleet", "trucking", "mcp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Terminal",
+    "shortDescription": "Work with Terminal fleet data.",
+    "longDescription": "Query fleet data through Terminal MCP or the CLI, and build integrations against Terminal's unified telematics API.",
+    "developerName": "Terminal",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Show the vehicles in my Terminal connection.",
+      "Investigate recent safety events in Terminal.",
+      "Help me integrate Terminal into this application."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

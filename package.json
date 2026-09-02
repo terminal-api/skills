@@ -1,0 +1,13 @@
+{
+  "name": "@terminal-api/agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official Terminal agent skills and plugin definitions",
+  "license": "MIT",
+  "scripts": {
+    "check": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

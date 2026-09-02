@@ -1,0 +1,34 @@
+name: Skill request
+description: Propose a new skill or a meaningful expansion to an existing skill.
+title: "[Skill]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: User job
+      description: What should an agent help a user accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: Example prompts
+      description: Give two or three prompts that should activate the skill.
+      placeholder: |-
+        - Show me...
+        - Help me...
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Scope and boundaries
+      description: What should the skill do, and what should it explicitly avoid doing?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting documentation
+      description: Link to relevant public Terminal documentation or tool schemas.
