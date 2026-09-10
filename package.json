@@ -1,0 +1,19 @@
+{
+  "name": "@terminal-api/agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official Terminal agent skills and plugin definitions",
+  "license": "MIT",
+  "scripts": {
+    "check": "npm run validate && skills add . --list",
+    "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "skills": "1.5.23",
+    "yaml": "2.9.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

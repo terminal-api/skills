@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "terminal",
+  "version": "0.1.0",
+  "description": "Query fleet data and build telematics integrations with Terminal.",
+  "author": {
+    "name": "Terminal",
+    "email": "support@withterminal.com",
+    "url": "https://withterminal.com"
+  },
+  "homepage": "https://docs.withterminal.com/guides/agents",
+  "repository": "https://github.com/terminal-api/skills",
+  "license": "MIT",
+  "keywords": ["terminal", "telematics", "fleet", "trucking", "mcp"]
+}

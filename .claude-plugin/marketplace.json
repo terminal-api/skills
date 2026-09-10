@@ -1,0 +1,18 @@
+{
+  "name": "terminal",
+  "owner": {
+    "name": "Terminal",
+    "email": "support@withterminal.com"
+  },
+  "metadata": {
+    "description": "Official Terminal plugins for fleet data and telematics development"
+  },
+  "plugins": [
+    {
+      "name": "terminal",
+      "source": "./plugins/terminal",
+      "version": "0.1.0",
+      "description": "Query fleet data and build telematics integrations with Terminal."
+    }
+  ]
+}

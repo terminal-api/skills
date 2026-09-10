@@ -1,0 +1,20 @@
+{
+  "name": "terminal",
+  "interface": {
+    "displayName": "Terminal"
+  },
+  "plugins": [
+    {
+      "name": "terminal",
+      "source": {
+        "source": "local",
+        "path": "./plugins/terminal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
